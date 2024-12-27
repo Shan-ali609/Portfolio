@@ -1,87 +1,4 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-header nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 21px 50px;
-  background-color: #000000;
-}
-.shan {
-  font-size: 40px;
-  font-weight: 800;
-  cursor: pointer;
-  color: white;
-}
-ul {
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 50%;
 
-}
-ul li {
-  list-style-type: none;
-  text-decoration: none;
-}
-ul li a {
-  text-decoration: none;
-  font-size: 16px;
-  color: white;
-}
-ul li a:hover,
-ul li a.active {
-  text-decoration: underline 2px;
-  text-underline-position: 8px;
-  text-underline-offset: 9px;
-  color: white;
-  text-decoration-color: rgb(34, 180, 216);
-}
-.btn {
-  background-color: rgb(238, 238, 244);
-  padding: 14px 20px;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  color: darkblue;
-}
-.imburger {
-  font-size: 30px;
-  display: none;
-}
-.ham_active {
-  display: flex;
-  justify-content: space-around;
-}
-
-@media screen and (max-width: 1024px) {
-  .imburger {
-    display: flex;
-    cursor: pointer;
-  }
-  ul {
-    display: none;
-  }
-  ul li {
-    padding: 37px 0px;
-    text-align: center;
-  }
-  ul.ham_active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    left: 0px;
-
-    width: 100%;
-
-    z-index: 1;
-    background-color: rgb(1, 1, 1);
-  }
-} */
  
 * {
   margin: 0;
@@ -167,79 +84,7 @@ ul li a.active {
       text-align: center;
   }
 }
-/* .slider {
-  height: 680px;
-  width: 100%;
-  top: 50%;
-  background-image: url("./photos/face.jpg");
-  background-size: cover;
-  object-fit: cover;
 
-  background-size: 100% 100%;
-  animation: slider 9s infinite;
-}
-.info {
-  position: absolute;
-  top: 40%;
-  left: 11%;
-  display: flex;
-  gap: 20px;
-}
-
-.m {
-  font-size: 27px;
-}
-
-.nam {
-  color: rgb(34, 180, 216);
-  font-family: Times, "Times New Roman", Georgia, serif;
-  font-size: 58px;
-  margin-top: 7px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.para {
-  margin-top: 13px;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 21px;
-}
-.pri {
-  height: 41px;
-  width: 110px;
-  font-size: 13px;
-  color: rgb(34, 180, 216);
-  background-color: black;
-  border-radius: 6px;
-  margin-top: 18px;
-  border: 2px solid rgb(34, 180, 216);
-}
-.sec {
-  height: 41px;
-  width: 110px;
-  font-size: 13px;
-  color: rgb(34, 180, 216);
-  background-color: black;
-  border-radius: 7px;
-  margin-left: 15px;
-  border: 2px solid rgb(34, 180, 216);
-}
-.pri:hover,
-.sec:hover,
-.prii:hover {
-  background-color: rgb(34, 180, 216);
-  color: white;
-  cursor: pointer;
-}
-.icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 8px;
-  gap: 36px;
-  font-size: 20px;
-  cursor: pointer;
-} */
 .slider {
   /* height: 680px; */
   width: 100%;
@@ -258,6 +103,53 @@ ul li a.active {
            45%{background-image: url('./photos/face1.jpg');}
            75%{background-image: url('./photos/face2.jpg');}
     } */
+
+/* Initial state for the text */
+/* Basic setup for the text element */
+/* Basic setup for the text element */
+/* Basic setup for the text element */
+
+#developerText {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 3px solid black; /* Cursor effect */
+  /* height: 60px;  */
+
+  visibility: visible;
+  opacity: 1;
+  white-space: normal; /* Ensures the text wraps properly */
+  word-wrap: break-word; /* Allows text to break and wrap */
+}
+/* Typing effect animation */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Cursor blink effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Responsive adjustments (Optional) */
+
+
+
+
+
+
+
+
+
+
+
 .info {
   position: absolute;
   display: flex;
@@ -273,10 +165,10 @@ ul li a.active {
   font-family: Times, "Times New Roman", Georgia, serif;
 }
 .para {
-  margin-top: 13px;
   display: flex;
   flex-wrap: wrap;
   font-size: 21px;
+  width: 50%;
 }
 .pri {
   height: 41px;
@@ -315,18 +207,20 @@ ul li a.active {
   font-size: 20px;
   cursor: pointer;
 }
+
+
+
+
 .container {
   width: 100%;
   background-color: rgb(253, 252, 252);
   box-sizing: border-box;
-  padding-top: 50px;
-  margin-top: 40px;
 }
 .profile-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
+
   gap: 30px;
   padding: 50px;
 }
@@ -335,14 +229,23 @@ ul li a.active {
   width: 400px;
   border-radius: 10%;
   object-fit: cover;
+  margin: 0 auto;
 }
+
+
+
+
+
+
+
+
 .about-section {
   /* width: 40%; */
   line-height: 1.5;
 }
 .section-title {
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 700;
   color: rgb(34, 180, 216);
   padding-bottom: 20px;
 }
@@ -357,7 +260,7 @@ ul li a.active {
 }
 .about-text {
   max-width: 500px;
-  line-height: 1;
+
   padding-bottom: 14px;
 }
 .iiinfo {
@@ -368,17 +271,60 @@ ul li a.active {
 
 @media screen and (max-width: 1024px) {
   .profile-container {
+    display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .profile-img {
+    width: 40%;
+    height: auto; /* Keep height proportional */
+    border-radius: 50%; /* Optional: to make it circular */
+    object-fit: cover;
+    margin-top: 0; /* Adjust margin if needed */
+  }
+}
+@media screen and (max-width: 768px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+  }
+  .para{
+    width: 90%;
   }
 
   .profile-img {
     width: 70%;
-    height: 70%;
-    height: auto;
-    border-radius: 50%;
+    height: auto; /* Keep height proportional */
+    border-radius: 50%; /* Optional: to make it circular */
     object-fit: cover;
-    margin-top: -110px;
+    margin-top: 0; /* Adjust margin if needed */
+  }
+}
+@media screen and (max-width: 425px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .profile-img {
+    width: 100%;
+    height: auto; /* Keep height proportional */
+    border-radius: 50%; /* Optional: to make it circular */
+    object-fit: cover;
+    margin-top: 0; /* Adjust margin if needed */
   }
 }
 
