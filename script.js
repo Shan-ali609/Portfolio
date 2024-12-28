@@ -3,6 +3,7 @@ const ul= document.querySelector('ul');
 humburger.addEventListener('click' , ()=>{
     ul.classList.toggle('ham_active');
 })
+
 // Select the element
 const developerText = document.getElementById('developerText');
 
@@ -22,22 +23,21 @@ function typeText(text) {
   }, 150);  // Adjust this value for faster or slower typing speed
 }
 
-// Function to switch the text every 2 seconds
 let count = 0;
 
 function switchText() {
-  if (count % 2 === 0) {
+  if (count % 3 === 0) {
     // Type "WEB DEVELOPER"
     typeText("WEB DEVELOPER");
-  } else {
+  } else if (count % 3 === 1) {
     // Type "FRONTEND DEVELOPER"
     typeText("FRONTEND DEVELOPER");
+  } else {
+    // Type "FULLSTACK DEVELOPER"
+    typeText("FULLSTACK DEVELOPER");
   }
   count++;
 }
 
 // Start the loop
 switchText();
-
-
-
