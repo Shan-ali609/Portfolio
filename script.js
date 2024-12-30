@@ -26,15 +26,12 @@ function typeText(text) {
 let count = 0;
 
 function switchText() {
-  if (count % 3 === 0) {
+  if (count % 2 === 0) {
     // Type "WEB DEVELOPER"
     typeText("WEB DEVELOPER");
-  } else if (count % 3 === 1) {
-    // Type "FRONTEND DEVELOPER"
-    typeText("FRONTEND DEVELOPER");
   } else {
     // Type "FULLSTACK DEVELOPER"
-    typeText("FULLSTACK DEVELOPER");
+    typeText("FRONTEND DEVELOPER");
   }
   count++;
 }
