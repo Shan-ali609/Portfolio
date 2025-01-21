@@ -31,7 +31,7 @@ function switchText() {
     typeText("WEB DEVELOPER");
   } else {
     // Type "FULLSTACK DEVELOPER"
-    typeText("FRONTEND DEVELOPER");
+    typeText("FULL STACK DEVELOPER");
   }
   count++;
 }
