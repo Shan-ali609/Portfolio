@@ -97,12 +97,11 @@ ul li a.active {
   background-size: 100% 100%;
   animation: slider 9s infinite;
 }
-
 /* @keyframes slider{
            0%{background-image: url('./photos/face.jpg');}
            45%{background-image: url('./photos/face1.jpg');}
            75%{background-image: url('./photos/face2.jpg');}
-    } */
+    }  */
 
 /* Initial state for the text */
 /* Basic setup for the text element */
@@ -664,3 +663,271 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+
+
+
+
+
+
+@keyframes bounce-in {
+  0% {
+    transform: translateY(270px); 
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-10px); 
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 3s ease-out forwards;
+}
+
+.icons i:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.icons i:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.icons i:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.icons i:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+/* Custom keyframes for button animation */
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom keyframes for the second button */
+@keyframes appear2 {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the buttons */
+.animate-appear {
+  animation: appear 1s forwards;
+}
+
+.animate-appear2 {
+  animation: appear2 1s forwards;
+}
+
+
+
+
+
+
+
+
+/* Keyframes for "SKILLS" animation from bottom to top */
+@keyframes appear-skills {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Starts from 20px below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Ends at the normal position */
+  }
+}
+
+/* Apply the animation when triggered */
+.animate-skills {
+  animation: appear-skills 1s forwards;
+}
+
+/* Hidden state (initial state, before animation is triggered) */
+.animate-hidden {
+  opacity: 0;
+  transform: translateY(20px); /* Keeps it hidden and slightly off-screen */
+}
+
+
+
+
+
+
+
+
+
+/* Section Animations */
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation classes */
+.animate-left {
+  animation: slideFromLeft 1s ease-out forwards;
+}
+
+.animate-right {
+  animation: slideFromRight 1s ease-out forwards;
+}
+
+.animate-skills {
+  animation: slideFromBottom 1s ease-out forwards;
+}
+
+
+/* Card Animations */
+@keyframes slideFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide {
+  animation: slideFromBottom 1s ease-out forwards;
+  opacity: 1;
+}
+
+/* Optional delays for cards */
+.card-1 {
+  animation-delay: 0s;
+}
+
+.card-2 {
+  animation-delay: 1s;
+}
+
+.card-3 {
+  animation-delay: 2s;
+}
+
+
+
+
+
+
+
+
+
+/* Define the keyframes for each animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Add classes for animations */
+.cardbody {
+  opacity: 0;  /* Initially hide the cards */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity */
+}
+
+.cardbody.animate-left {
+  animation: slideInFromLeft 1s forwards;
+}
+
+.cardbody.animate-bottom {
+  animation: slideInFromBottom 1s forwards;
+}
+
+.cardbody.animate-right {
+  animation: slideInFromRight 1s forwards;
+}
+
+
+
+
+
+
+
+
+
+
