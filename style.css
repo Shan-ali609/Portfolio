@@ -77,6 +77,7 @@ ul li a.active {
   /* Styles when the menu is active (shown) */
   ul.ham_active {
       display: flex;
+      animation: move 1.5s ease forwards; 
   }
 
   ul li {
@@ -85,6 +86,16 @@ ul li a.active {
   }
 }
 
+@keyframes move {
+  0%{
+      transform: translatey(100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translate(0px);
+      opacity: 1;
+  }
+}
 .slider {
   /* height: 680px; */
   width: 100%;
