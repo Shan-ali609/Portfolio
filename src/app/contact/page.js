@@ -8,7 +8,7 @@ const page = () => {
     <div className='pt-24 p-3 md:px-24'>
         <div className='flex flex-col gap-3.5'>
           <p className='text-4xl font-semibold'>Contact Me</p>
-          <p className='max-w-4xl'>I&apos;m interested in freelance opportunities, full-time positions, and consulting work. If you have a question or want to work together, feel free to get in touch!</p>
+          <p className='max-w-4xl'>I&#39;m interested in freelance opportunities, full-time positions, and consulting work. If you have a question or want to work together, feel free to get in touch!</p>
         </div>
        {/* left */}
         <div className='grid md:grid-cols-[30%_70%] grid-cols-1 gap-10 py-6'>
@@ -53,7 +53,7 @@ const page = () => {
 
               <div className='border border-gray-300 flex flex-col p-4'>
                 <p className='font-semibold'>Availability</p>
-                <p>I&apos;m currently available for new projects, My typical response time is within 24 hours.</p>
+                <p>I&#39;m currently available for new projects, My typical response time is within 24 hours.</p>
               </div>
           </div>
           {/* right */}
