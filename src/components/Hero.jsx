@@ -34,7 +34,7 @@ const Hero = () => {
                 className="inline text-blue-500" // Applies blue color to dynamic text
             />
             </h1>
-            <p className='max-w-[580px] lg:text-[18px]'>A passionate full-stack developer specializing in creating exceptional digital experiences. I build accessible, responsive, and performant web applications.</p>
+            <p className='max-w-[580px] text-black lg:text-[18px]'>A passionate full-stack developer specializing in creating exceptional digital experiences. I build accessible, responsive, and performant web applications.</p>
             <div className='flex gap-3.5 mt-3'>
                 <Link href="/projects" className="lg:p-2 px-1 text-[10px] lg:text-[15px] bg-blue-500 text-white inline-flex items-center gap-2 rounded">View my Work <span><FaArrowRight /></span></Link>
                 <Link href="/contact" className="lg:p-2 p-2 text-[10px] lg:text-[15px] text-black inline-flex items-center font-semibold gap-2 border-gray-400 border rounded">Contact Me </Link>

@@ -65,7 +65,7 @@ export default function Header() {
               <ul className="mt-10 space-y-6">
                 <li>
                   <Link
-                    className="hover:text-blue-500 font-semibold text-lg block"
+                    className="hover:text-blue-500 text-black  font-semibold text-lg block"
                     href="/"
                     onClick={() => setIsOpen(false)}
                   >
@@ -74,7 +74,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="hover:text-blue-500 font-semibold text-lg block"
+                    className="hover:text-blue-500 text-black font-semibold text-lg block"
                     href="/about"
                     onClick={() => setIsOpen(false)}
                   >
@@ -83,7 +83,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="hover:text-blue-500 font-semibold text-lg block"
+                    className="hover:text-blue-500 text-black font-semibold text-lg block"
                     href="/project"
                     onClick={() => setIsOpen(false)}
                   >
@@ -92,7 +92,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    className="hover:text-blue-500 font-semibold text-lg block"
+                    className="hover:text-blue-500 text-black font-semibold text-lg block"
                     href="/contact"
                     onClick={() => setIsOpen(false)}
                   >
