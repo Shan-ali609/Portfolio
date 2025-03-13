@@ -39,7 +39,7 @@ const Skills = () => {
             className="bg-white p-6 shadow-md rounded-lg mx-auto flex flex-col items-center text-center w-80 hover:shadow-lg"
           >
             <div className="mb-4 bg-blue-100 p-2 rounded-full ">{skill.icon}</div>
-            <h2 className="text-xl font-semibold mb-2">{skill.title}</h2>
+            <h2 className="text-xl text-black font-semibold mb-2">{skill.title}</h2>
             <p className="text-gray-600">{skill.description}</p>
           </div>
         ))}

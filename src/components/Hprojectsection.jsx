@@ -8,8 +8,8 @@ const Hprojectsection = () => {
   return (
     <div className='bg-blue-50 py-11 w-full flex items-center justify-center'>
          <div className='flex flex-col items-center justify-center text-center'>
-            <p className='font-semibold text-5xl'>Featured Projects</p>
-            <p className='w-full text-lg'>Check out some of my recent work. These projects showcase my skills and expertise.</p>
+            <p className='font-semibold text-black text-5xl'>Featured Projects</p>
+            <p className='w-full text-black text-lg'>Check out some of my recent work. These projects showcase my skills and expertise.</p>
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1 gap-6 p-4 mt-5">
            {homeprojects.map((project) => (
            <ProjectCards key={project.title} project={project} />

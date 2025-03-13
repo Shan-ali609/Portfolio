@@ -22,13 +22,13 @@ const ProjectCards = ({ project }) => {  // Fixed prop destructuring
         <div className='p-3.5 bg-white'>
           <div className="flex items-center space-x-2 mb-2">
             {project.category.split(' ').map((word, i) => (
-              <span key={i} className="text-sm font-medium px-2 py-1 bg-blue-100 rounded">
+              <span key={i} className="text-sm font-medium px-2 text-white py-1 bg-blue-100 rounded">
                 {word}
               </span>
             ))}
           </div>
           
-          <h3 className="text-xl text-left font-semibold mb-2">{project.title}</h3>
+          <h3 className="text-xl text-left text-black font-semibold mb-2">{project.title}</h3>
           
           <p className="text-gray-600 mb-4 text-left">{project.description}</p>
           

@@ -11,7 +11,7 @@ const TechStack = () => {
       <div className="md:px-28 md:py-14 ">
    
         
-            <h2 className="text-2xl font-bold text-gray-800">Frontend</h2>
+            <h2 className="text-2xl font-bold text-black">Frontend</h2>
             <div className="flex  justify-between flex-wrap gap-4">
              
                 <div className="flex flex-col  items-center p-4 hover:scale-110 transition-transform duration-300 cursor-pointer">
@@ -62,7 +62,7 @@ const TechStack = () => {
                 </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-gray-800 pt-4">Backend</h2>
+            <h2 className="text-2xl font-bold text-black pt-4">Backend</h2>
             <div className="flex flex-row gap-16 flex-wrap ">
              
                 <div className="flex flex-col items-center p-4 hover:scale-110 transition-transform duration-300 cursor-pointer">
@@ -85,7 +85,7 @@ const TechStack = () => {
            
             </div>
 
-            <h2 className="text-2xl font-bold text-gray-800 pt-4">Tools</h2>
+            <h2 className="text-2xl font-bold text-black pt-4">Tools</h2>
             <div className="flex flex-row md:gap-16 flex-wrap ">
              
                 <div className="flex flex-col items-center p-4 hover:scale-110 transition-transform duration-300 cursor-pointer">

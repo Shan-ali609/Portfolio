@@ -11,7 +11,7 @@ export default function Header() {
       <nav className="w-full max-w-7xl mx-auto flex justify-between items-center ">
         {/* Logo */}
         <div>
-          <Link href="/" className="text-[25px] text-neutral-800 font-semibold">
+          <Link href="/" className="text-[25px] text-black font-semibold">
             Shan Ali
           </Link>
         </div>

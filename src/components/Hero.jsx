@@ -20,7 +20,7 @@ const Hero = () => {
                 ]}
                 speed={50}
                 repeat={Infinity}
-                className="inline" // Ensures it follows the h1 styling
+                className="inline text-black" // Ensures it follows the h1 styling
             />
             <TypeAnimation
                 sequence={[

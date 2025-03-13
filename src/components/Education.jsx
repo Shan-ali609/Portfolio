@@ -39,7 +39,7 @@ const Education = () => {
       </div>
 
       <div className="py-5">
-      <p className="font-semibold text-2xl">Experience Letter</p>
+      <p className="font-semibold text-black text-2xl">Experience Letter</p>
       <div className="md:max-w-7xl pt-4">
         {/* Clickable Image */}
         <Image
