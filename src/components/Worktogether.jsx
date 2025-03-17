@@ -10,7 +10,7 @@ const Worktogether = () => {
         </div>
         <div className='flex flex-col md:flex-row gap-4 md:gap-7'>
             <Link className='px-5 py-2 border border-gray-300 bg-blue-500 text-white text-[14px] md:text-[15px] font-bold' href="/contact">Contact Me</Link>
-            <Link className='px-5 py-2 border border-gray-300 text-white text-[14px] md:text-[15px] font-bold' href="/about">Learn More About Me</Link>
+            <Link className='px-5 py-2 border border-gray-300 text-black text-[14px] md:text-[15px] font-bold' href="/about">Learn More About Me</Link>
         </div>
     </div>
   )
