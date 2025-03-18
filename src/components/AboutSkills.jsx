@@ -90,9 +90,9 @@ const AboutSkills = () => {
           <div className="flex items-center p-4 hover:bg-gray-50 rounded-lg transition-all">
             <div className="flex-1">
               <div className="flex justify-between mb-2">
-                <span className="font-medium text-gray-700">Tailwind</span>
+                <span className="font-medium text-gray-700">TailwindCSS</span>
                 <span className="text-blue-500">5/5</span>
-              </div>Name
+              </div>
               <div className="h-2 bg-gray-200 rounded-full">
                 <div className="h-2 bg-blue-500 rounded-full w-full"></div>
               </div>

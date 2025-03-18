@@ -29,9 +29,9 @@ const Footer = () => {
               <div>
                 <p className='font-bold'>Connect</p>
                 <div className='flex gap-5 items-center'>
-                <Link href="/" className='text-[23px]'><CiLinkedin className='hover:text-blue-500' /></Link>
-                 <Link href="/"><GoMail className='hover:text-blue-500' /></Link>
-                 <Link href="/"><LuGithub className='hover:text-blue-500' /></Link>
+                <Link href="https://www.linkedin.com/in/shan-ali-7b6062311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='text-[23px]'><CiLinkedin className='hover:text-blue-500' /></Link>
+                 <Link href="shan.softwareengineer007@gmail.com"><GoMail className='hover:text-blue-500' /></Link>
+                 <Link href="https://github.com/Shan-ali609?tab=repositories"><LuGithub className='hover:text-blue-500' /></Link>
                 </div>
               </div>
          </div>
