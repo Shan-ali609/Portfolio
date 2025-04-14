@@ -20,7 +20,7 @@ const record = [
     },
     {
         icon : <PiTimerLight />,
-        Number : "2+",
+        Number : "5+",
         title : "Years Experience",
         description : "Professional experience in software development"
     }

@@ -11,7 +11,7 @@ const Aboutsection = () => {
             <div className='pl-4 ' >
                 <div className=' flex flex-col gap-4'>
                     <p className='text-5xl font-semibold'>About Me</p>
-                    <p className='text-[18px]'>I'm Shan Ali, a Full Stack Developer with 4+ years of experience and expertise in building scalable web applications using React.js, Next.js, TypeScript, Express.js, Node.js, and cloud technologies like AWS and Vercel.</p>
+                    <p className='text-[18px]'>I'm Shan Ali, a Full Stack Developer with 5+ years of experience and expertise in building scalable web applications using React.js, Next.js, TypeScript, Express.js, Node.js, and cloud technologies like AWS and Vercel.</p>
                     <p>Over the past few years, I have developed e-commerce platforms like Binkit, a MERN stack-based app. I implemented a login system with user registration, OTP password recovery, and JWT authentication. The admin section allows product and category management. Users can place orders seamlessly. Additionally, I have experience building CRM systems for customer relationship management and CMS for content management, helping businesses streamline processes and enhance user engagement</p>
                      <p>What drives me is solving complex problems through clean, efficient code and delivering solutions that make a tangible impact. I am passionate about leveraging my skills in frontend and backend development to create seamless user experiences and robust systems.</p>
                 </div>
