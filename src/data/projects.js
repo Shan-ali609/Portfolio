@@ -1,4 +1,24 @@
 export const projects = [
+
+
+  {
+    slug : "Shifa-Sultan-Poly-Clinic",
+    image: "/ShifaSultan.jpeg", // Changed to hyphen-separated filename
+    category: "hospital System",
+    title: "Shifa Sultan Poly Clinic",
+    description: "A comprehensive clinic management system built with the MERN stack, featuring patient registration, appointment scheduling, and medical record management.",
+    url : "",
+    tech: ["React", "TailwindCSS", "Node.js","Express.js", "MongoDB"],
+  },
+    {
+    slug : "Bindawood-Store",
+    image: "/bindawood.png", // Changed to hyphen-separated filename
+    category: "E System",
+    title: "Bindawood Store",
+    description: "A MERN stack Bindawood-style e-store with admin panel to add, update, and manage categories, subcategories, and products, including image uploads and authentication.",
+    url : "https://clientbindawood.vercel.app/",
+    tech: ["React", "TailwindCSS", "Node.js","Express.js", "MongoDB"],
+  },
   {
     slug : "book-store-app",
     image: "/picbookstore.png", // Changed to hyphen-separated filename
