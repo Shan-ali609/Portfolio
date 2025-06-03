@@ -1,5 +1,14 @@
 export const projects = [
 
+   {
+    slug : "Ebra-assignment",
+    image: "/assignment.png", // Changed to hyphen-separated filename
+    category: "AddCard Funtionality",
+    title: "E Store Add Card Functionality",
+    description: "A simple e-commerce store with add-to-cart functionality, allowing users to select products and manage their cart effectively.",
+    url : "https://e-commerence-addto-card.vercel.app/",
+    tech: ["Next.js", "TailwindCSS", "TypeScript", "Context API"],
+  },
 
   {
     slug : "Shifa-Sultan-Poly-Clinic",
